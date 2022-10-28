@@ -1,9 +1,9 @@
-vocal = input('Introduce las letras a contar: ')
-frase = input('Introduce una frase: ')
+frase = input('Introduce una texto: ')
 frase = frase.lower()
+letra = input('Introduce la letra a contar: ')
 contador = 0
 for i in frase:
-    if i in vocal:
+    if i in letra:
         contador += 1
 print (contador)
 
