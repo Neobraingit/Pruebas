@@ -1,12 +1,15 @@
-def contador_de_vocales(frase):
-
+def contador_de_vocales():
+    frase = input('Introduce una frase: ')
     contador = 0
     for letra in frase:
         if letra.lower() in ('aeiou'):
             contador += 1
     return contador
 
-print ('En la frase hay ', contador_de_vocales('aaaaaaaaaa'), 'vocales')
+print (f' La frase tiene',contador_de_vocales(), 'vocales')
+
+
+
 
 
 
