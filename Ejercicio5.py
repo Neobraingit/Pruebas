@@ -1,0 +1,11 @@
+print ('Introduce el primer número: ')
+dato1 = input()
+print ('Introduce el segundo número: ')
+dato2 = input()
+numero1 = int(dato1)
+numero2 = int(dato2)
+suma =  numero2 + numero1
+print (suma)
+strSuma = str(suma)
+resultado = ('La suma es',strSuma)
+print (resultado)
