@@ -27,5 +27,7 @@ elif opcion == 'Lector':
     Lector()
 elif opcion == 'Imprimir':
     Imprimir()
+else:
+    print ('No has elegido bien')
 
 
