@@ -24,3 +24,4 @@ Eva.claustro()
 Eva.modificar_niños(55)
 Eva.claustro()
 Eva.claustro()
+Eva.Especialidad

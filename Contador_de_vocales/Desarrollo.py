@@ -7,4 +7,4 @@ def contador ():
     for i in frase:
         if i in letra:
             contador += 1
-            print (contador)
+    print (contador)
