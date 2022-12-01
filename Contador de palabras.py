@@ -1,5 +1,7 @@
 frase = input('Introduce una frase: ')
+frase = frase.lower()
 palabra = input('Introduce una palabra: ')
+palabra = palabra.lower()
 contador = 0
 
 for i in frase:
@@ -7,5 +9,5 @@ for i in frase:
         contador += 1
         palabra = input('Introduce una palabra: ')
     else:
-        print ('Bien¡¡¡ l a palabra está en la frase')
+        print ('Bien¡¡¡ la palabra está en la frase')
         break
