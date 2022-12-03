@@ -1,8 +1,7 @@
-frase = input('Escribe una frase: ')
-frase = frase.lower()
-vocales = 'aeiou'
+frase = input('Introduce una frase: ')
+vocales = 'aeiouAEIOU'
 contador = 0
 for i in frase:
     if i in vocales:
         contador += 1
-print (contador)
+print ('Hay', contador, 'vocales')
