@@ -1,9 +1,9 @@
-frase = input('Escribe una frase o palabra: ')
+frase = input('Introduce un frase: ')
 frase = frase.lower()
-vocales = ['a', 'e', 'i', 'o', 'u']
+vocales = 'aeiou'
 for vocal in vocales:
     contador = 0
     for letra in frase:
         if letra == vocal:
             contador += 1
-    print ('La vocal ' + vocal + ' aparece ' + str(contador)  + ' veces')
+    print ('La letra', vocal, 'sale', contador, 'veces')
