@@ -7,7 +7,8 @@
 
 frase = 'Me llamo Marcos'
 frase = frase.lower()
-resultado= len(frase.split())
+resultado= len(frase.split(' '))
 print (resultado)
+
 
 
