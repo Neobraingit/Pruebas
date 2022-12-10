@@ -5,7 +5,7 @@
  * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan automáticamente.
 '''
 
-frase = 'Me llamo Marcos'
+frase = input('Introduce una frase: ')
 frase = frase.lower()
 resultado= len(frase.split(' '))
 print (resultado)
