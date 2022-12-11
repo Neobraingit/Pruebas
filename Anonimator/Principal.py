@@ -1,7 +1,7 @@
-from Anonimator.Reproductor import *
-from Anonimator.Lector import  *
-from Anonimator.Print import *
-import Anonimator
+from Anonimator import Reproductor
+from Anonimator import Lector
+from Anonimator import Print
+
 
 print ('''  /$$$$$$                                /$$                           /$$                        
  /$$__  $$                              |__/                          | $$                        
