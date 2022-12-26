@@ -4,4 +4,3 @@ contador = 0
 for i in frase:
     if i in letra:
         contador += 1
-    re
