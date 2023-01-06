@@ -1,5 +1,0 @@
-print ('Escribe una frase: ')
-frase = input()
-print('Escribe una vocal: ')
-vocal = input()
-print (frase.replace(vocal, vocal.upper()))
